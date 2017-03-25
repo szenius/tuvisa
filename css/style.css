@@ -1,0 +1,208 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-head-container {
+  min-height: 550px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container {
+  min-height: 350px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+progress {
+  /* Reset the default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #eee;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress::-webkit-progress-value {
+    background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .1)),
+	   -webkit-linear-gradient(left, #4CBABA, teal);
+
+    border-radius: 7px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+.sign-up {
+    color: #26a69a;
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+.sign-up:hover {
+    color:white;
+    border-bottom: 3px solid white;
+    background-color: teal;
+}
+
+.plan-container-middle {
+    background: #37474f;
+    color:white;
+    font-size:30px;
+    line-height:1;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-transform:lowercase;
+    letter-spacing: 1px;
+}
+
+.plan-container {
+    border: 10px solid #26a69a;
+    background: #4db6ac;
+    color: white;
+    font-size: 30px;
+    line-height: 1;
+    padding: 30px;
+}
+
+.plan-container-description {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: darkslategray;
+    font-weight: none;
+    background:white;
+}
+
+.side-bar {
+    background: #e0f2f1;
+    height: auto;
+    min-height: 1024px;
+    padding-bottom: -50px;
+}
+
+.main-content {
+    background: white;
+    height: auto;
+    min-height: 1024px;
+}
+
+.pp {
+    margin-top: 1rem;
+    width: 50%;
+    height: auto;
+}
+
+.bio {
+    font-size: 25px;
+    font-weight:lighter;
+}
+
+.search-bar {
+    border: 4px solid #f5f5f5;
+    margin: 2rem;
+    padding: 5px;
+    padding-left: 10px;
+    color: silver;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.search-filters {
+    padding: 5px;
+    padding-left: 10px;
+    margin: 2rem;
+}
+
+.logo-navbar {
+    width: 120px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.logo-banner {
+    width: 300px;
+    height:auto;
+}
+
+.box-banner {
+    width: 500px;
+    height: 150px;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.search-filter-box {
+  background: #f5f5f5;
+  line-height: 5;
+  text-align: center;
+  font-size: 30px;
+  color: darkslategray;
+  border-right: 2px solid #f0f0f0;
+  border-bottom: 2px solid #f0f0f0;
+}
