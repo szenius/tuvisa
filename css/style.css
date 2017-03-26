@@ -212,7 +212,6 @@ progress::-webkit-progress-value {
     background:teal lighten-5 !important;
     width:200px;
     margin-top:5px !important;
-    margin-left:-150px !important;
 }
 
 
