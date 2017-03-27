@@ -2867,8 +2867,7 @@ video.responsive-video {
 
 .parallax-head-container {
   position: relative;
-  overflow: hidden;
-  height: 1000px;
+  min-height: 1200px;
 }
 
 .parallax-container {
