@@ -210,9 +210,8 @@ progress::-webkit-progress-value {
 
 .button {
     background:teal lighten-5 !important;
-    width:200px;
-    margin-top:5px !important;
-    margin-left:-150px !important;
+    width:100px;
+    margin-left: 5px !important;
 }
 
 
@@ -220,5 +219,5 @@ progress::-webkit-progress-value {
 
 
 #index-banner {
-    height:700px;
+    height:850px;
 }
