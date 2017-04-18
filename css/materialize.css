@@ -2868,6 +2868,7 @@ video.responsive-video {
 .parallax-head-container {
   position: relative;
   min-height: 1200px;
+  padding: 20px; !important
 }
 
 .parallax-container {
@@ -3449,6 +3450,7 @@ input[type=range] + .thumb {
   position:relative;
   margin: 0 auto;
   width: 100%;
+  padding: 20px !important;
 }
 
 .solution-container {
